@@ -79,6 +79,46 @@ def run_fff_test(params, initial, regul_comb, to=0, tf=20,
         
     return (sample_solution, input_range, (np.array(x1p), np.array(x2p), np.array(x3p)), Io)
 
+def run_fff_modified_test(params, initial, regul_comb, to=0, tf=20, 
+                 I_delta=2.0, npoints_I=50, I_factor=2, I_sample=1.0, x1p=0):
+    '''
+        Quick test for given parameters and defined regulation combination.
+        
+        Args:
+            params:
+                [delta, gamma, alpha, beta, sigma]
+            initial:
+            input_range:
+            regulation_comb:
+                2-dimensional tuple x signalling the type of regulation within the 
+                fiber and for the external regulations. x[0] for \tilde{f} and x[1]
+                for \tilde{g}.
+    '''
+    # Set parameters for the FFF solver. 
+    fff = solvers.FFF_modified_solver(params)
+    fff.set_initial(initial)
+    fff.set_regulations(regul_comb[0], regul_comb[1])
+    
+    # Sample solution in case we desire to plot an example of the dynamics.
+    sample_solution = fff.solve_eq(to,tf,I_sample,dense=True)
+    
+    Io = params[2]*x1p
+    I_min, I_max = Io - I_factor*I_delta, Io + I_factor*I_delta
+    input_range = np.linspace(I_min, I_max, npoints_I)
+    
+    x1p = []
+    x2p = []
+    x3p = []
+    x4p = []
+    for index, inp in enumerate(input_range):
+        sol = fff.solve_eq(to,tf,inp,dense=True)
+        x1p.append(sol.y[1][-1])
+        x2p.append(sol.y[3][-1])
+        x3p.append(sol.y[5][-1])
+        x4p.append(sol.y[7][-1])
+        
+    return (sample_solution, input_range, (np.array(x1p), np.array(x2p), np.array(x3p)), Io)
+
 def run_2fibo_test(params, initial, regul_comb, to=0, tf=20, I_delta=2.0, 
                    npoints_I=50, I_factor=2, I_sample=1.0, input_node=[1.0,0.0,0.0,0.0]):
     '''

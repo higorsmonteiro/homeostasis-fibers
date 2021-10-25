@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{homeostasis_antonelli2018}
+Fernando Antonelli, Martin Golubitsky, and Ian Stewart.
+\newblock Homeostasis in a feed forward loop gene regulatory motif.
+\newblock {\em Journal of Theoretical Biology}, 445(103-109), 2018.
+
+\bibitem{multi_input_antoneli2020}
+João~Luiz de~Oliveira~Madeira and Fernando Antoneli.
+\newblock Homeostasis in networks with multiple input nodes and robustness in
+  bacterial chemotaxis, 2020.
+
+\bibitem{stochs_gene_2005}
+Mads Kærn, Timothy~C. Elston, William~J. Blake, and James~J. Collins.
+\newblock Stochasticity in gene expression: from theories to phenotypes.
+\newblock {\em Nature Reviews Genetics}, 6:451–464, 2005.
+
+\bibitem{transistor2019}
+I.~Leifer, F.~Morone, S.~D.~S. Reis, J.~S. Andrade, M.~Sigman, and H.~A. Makse.
+\newblock Circuits with broken symmetries perform core logic computations in
+  genetic networks.
+\newblock {\em PLoS Comput. Biol.}, 16:1--16, 2020.
+
+\bibitem{morone2020}
+Flaviano Morone, Ian Leifer, and Hernan~A. Makse.
+\newblock Fibration symmetries uncover the building blocks of biological
+  networks.
+\newblock {\em Proceedings of the National Academy of Sciences}, 117(15), 2020.
+
+\bibitem{wang2021}
+Yangyang Wang, Zhengyuan Huang, Fernando Antoneli, and Martin Golubitsky.
+\newblock The structure of infinitesimal homeostasis in input–output
+  networks.
+\newblock {\em Journal of Mathematical Biology}, 82(62), 2021.
+
+\end{thebibliography}

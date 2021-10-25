@@ -1,0 +1,426 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.30)  28 MAY 2021 10:40
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/circuits_calc.tex
+(/home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/circuits_calc.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count175
+\Gm@cntv=\count176
+\c@Gm@tempcnt=\count177
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks15
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen143
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen144
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count178
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count179
+\leftroot@=\count180
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count181
+\DOTSCASE@=\count182
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen145
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count183
+\c@MaxMatrixCols=\count184
+\dotsspace@=\muskip16
+\c@parentequation=\count185
+\dspbrk@lvl=\count186
+\tag@help=\toks17
+\row@=\count187
+\column@=\count188
+\maxfields@=\count189
+\andhelp@=\toks18
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count190
+\float@exts=\toks21
+\float@box=\box47
+\@float@everytoks=\toks22
+\@floatcapt=\box48
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+) (/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip52
+\L@UnitsRaiseTextstyle=\skip53
+\L@UnitsRaiseScriptstyle=\skip54
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count191
+\l__pdf_internal_box=\box49
+) (/home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/circuits_calc.aux
+
+LaTeX Warning: Label `fig:fig1_l2' multiply defined.
+
+)
+\openout1 = `circuits_calc.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 638.47984pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=443.57848pt
+* \textheight=638.47984pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count192
+\scratchdimen=\dimen154
+\scratchbox=\box50
+\nofMPsegments=\count193
+\nofMParguments=\count194
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count195
+\MPscratchDim=\dimen155
+\MPnumerator=\count196
+\makeMPintoPDFobject=\count197
+\everyMPtoPDFconversion=\toks24
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<figs/n0l_1.png, id=1, 897.1116pt x 237.5274pt>
+File: figs/n0l_1.png Graphic file (type png)
+<use figs/n0l_1.png>
+Package pdftex.def Info: figs/n0l_1.png  used on input line 23.
+(pdftex.def)             Requested size: 448.5547pt x 118.7634pt.
+
+Overfull \hbox (4.97623pt too wide) in paragraph at lines 23--26
+ [][] 
+ []
+
+
+Overfull \hbox (1.12671pt too wide) in paragraph at lines 44--54
+\OT1/cmr/m/n/12 Considering the par-tial deriva-tives ob-tained from Eq. 1[], we have: $[]\OML/cmm/m/it/12 =[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 f[]$\OT1/cmr/m/n/12 ; $[]\OML/cmm/m/it/12 =[] \OT1/cmr/m/n/12 =
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/figs/n0l_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+<figs/n0l1_ecoli.png, id=18, 454.8192pt x 164.7756pt>
+File: figs/n0l1_ecoli.png Graphic file (type png)
+<use figs/n0l1_ecoli.png>
+Package pdftex.def Info: figs/n0l1_ecoli.png  used on input line 88.
+(pdftex.def)             Requested size: 227.40904pt x 82.38759pt.
+<figs/n0l2_ecoli.png, id=19, 702.4644pt x 171.5208pt>
+File: figs/n0l2_ecoli.png Graphic file (type png)
+<use figs/n0l2_ecoli.png>
+Package pdftex.def Info: figs/n0l2_ecoli.png  used on input line 95.
+(pdftex.def)             Requested size: 351.23134pt x 85.76018pt.
+File: figs/n0l2_ecoli.png Graphic file (type png)
+<use figs/n0l2_ecoli.png>
+Package pdftex.def Info: figs/n0l2_ecoli.png  used on input line 102.
+(pdftex.def)             Requested size: 351.23134pt x 85.76018pt.
+[2 </home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/figs/n0l1_ecoli.png> </home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/figs/n0l2_ecoli.png>]
+<figs/n1l_1.png, id=26, 911.0838pt x 232.2276pt>
+File: figs/n1l_1.png Graphic file (type png)
+<use figs/n1l_1.png>
+Package pdftex.def Info: figs/n1l_1.png  used on input line 146.
+(pdftex.def)             Requested size: 455.54079pt x 116.11351pt.
+
+Overfull \hbox (11.96231pt too wide) in paragraph at lines 146--149
+ [][] 
+ []
+
+
+Overfull \hbox (0.95264pt too wide) in paragraph at lines 167--179
+\OT1/cmr/m/n/12 Considering the par-tial deriva-tives ob-tained from Eq. 6[], we have: $[]\OML/cmm/m/it/12 =[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 f[]$\OT1/cmr/m/n/12 , $[]\OML/cmm/m/it/12 =[] \OT1/cmr/m/n/12 =
+ []
+
+[3 </home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/figs/n1l_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
+
+ []
+
+<figs/n1l0_ecoli.png, id=31, 296.7888pt x 173.9298pt>
+File: figs/n1l0_ecoli.png Graphic file (type png)
+<use figs/n1l0_ecoli.png>
+Package pdftex.def Info: figs/n1l0_ecoli.png  used on input line 215.
+(pdftex.def)             Requested size: 148.39403pt x 86.96468pt.
+<figs/n1l1_ecoli.png, id=32, 706.8006pt x 165.2574pt>
+File: figs/n1l1_ecoli.png Graphic file (type png)
+<use figs/n1l1_ecoli.png>
+Package pdftex.def Info: figs/n1l1_ecoli.png  used on input line 222.
+(pdftex.def)             Requested size: 353.39943pt x 82.62848pt.
+<figs/n1l2_ecoli.png, id=33, 716.9184pt x 174.4116pt>
+File: figs/n1l2_ecoli.png Graphic file (type png)
+<use figs/n1l2_ecoli.png>
+Package pdftex.def Info: figs/n1l2_ecoli.png  used on input line 229.
+(pdftex.def)             Requested size: 358.45831pt x 87.20558pt.
+[4 </home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/figs/n1l0_ecoli.png> </home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/figs/n1l1_ecoli.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 236--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
+
+ []
+
+[5 </home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/figs/n1l2_ecoli.png>]
+<figs/n2l_1.png, id=44, 912.5292pt x 230.7822pt>
+File: figs/n2l_1.png Graphic file (type png)
+<use figs/n2l_1.png>
+Package pdftex.def Info: figs/n2l_1.png  used on input line 313.
+(pdftex.def)             Requested size: 456.26349pt x 115.39081pt.
+
+Overfull \hbox (12.68501pt too wide) in paragraph at lines 313--316
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
+
+ []
+
+[6 </home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/figs/n2l_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 367--369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--381
+
+ []
+
+<figs/n2l0l1_ecoli.png, id=49, 419.6478pt x 217.2918pt>
+File: figs/n2l0l1_ecoli.png Graphic file (type png)
+<use figs/n2l0l1_ecoli.png>
+Package pdftex.def Info: figs/n2l0l1_ecoli.png  used on input line 389.
+(pdftex.def)             Requested size: 209.82338pt x 108.64561pt.
+[7 </home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/figs/n2l0l1_ecoli.png>]
+<figs/fibo2_simple.png, id=55, 906.7476pt x 194.6472pt>
+File: figs/fibo2_simple.png Graphic file (type png)
+<use figs/fibo2_simple.png>
+Package pdftex.def Info: figs/fibo2_simple.png  used on input line 463.
+(pdftex.def)             Requested size: 453.3727pt x 97.32335pt.
+
+Overfull \hbox (9.79422pt too wide) in paragraph at lines 463--466
+ [][] 
+ []
+
+[8 </home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/figs/fibo2_simple.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 512--514
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--526
+
+ []
+
+<figs/fibo2_ecoli.png, id=60, 163.3302pt x 149.358pt>
+File: figs/fibo2_ecoli.png Graphic file (type png)
+<use figs/fibo2_ecoli.png>
+Package pdftex.def Info: figs/fibo2_ecoli.png  used on input line 531.
+(pdftex.def)             Requested size: 97.99886pt x 89.61548pt.
+<figs/fibo2.png, id=61, 1100.4312pt x 215.8464pt>
+File: figs/fibo2.png Graphic file (type png)
+<use figs/fibo2.png>
+Package pdftex.def Info: figs/fibo2.png  used on input line 559.
+(pdftex.def)             Requested size: 467.68547pt x 91.73515pt.
+
+Overfull \hbox (24.107pt too wide) in paragraph at lines 559--562
+ [][] 
+ []
+
+[9 </home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/figs/fibo2_ecoli.png>] [10 </home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/figs/fibo2.png>] (/home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/circuits_calc.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3187 strings out of 481239
+ 43504 string characters out of 5920377
+ 297798 words of memory out of 5000000
+ 18402 multiletter control sequences out of 15000+600000
+ 547877 words of font info for 81 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,8n,37p,324b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on /home/higorsmonteiro/Documents/library/Research/fiber_circuits_project/texts/circuits_calc/circuits_calc.pdf (10 pages, 656576 bytes).
+PDF statistics:
+ 106 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+

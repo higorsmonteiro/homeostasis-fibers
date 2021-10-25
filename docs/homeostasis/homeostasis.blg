@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: homeostasis.aux
+The style file: plain.bst
+Database file #1: sample.bib
+Warning--entry type for "multi_input_antoneli2020" isn't style-file defined
+--line 61 of file sample.bib
+You've used 7 entries,
+            2118 wiz_defined-function locations,
+            543 strings with 5145 characters,
+and the built_in function-call counts, 2070 in all, are:
+= -- 191
+> -- 121
+< -- 0
++ -- 48
+- -- 40
+* -- 148
+:= -- 375
+add.period$ -- 20
+call.type$ -- 7
+change.case$ -- 41
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 69
+empty$ -- 147
+format.name$ -- 40
+if$ -- 413
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 6
+newline$ -- 37
+num.names$ -- 14
+pop$ -- 34
+preamble$ -- 1
+purify$ -- 34
+quote$ -- 0
+skip$ -- 57
+stack$ -- 0
+substring$ -- 78
+swap$ -- 7
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 28
+warning$ -- 0
+while$ -- 16
+width$ -- 8
+write$ -- 76
+(There was 1 warning)

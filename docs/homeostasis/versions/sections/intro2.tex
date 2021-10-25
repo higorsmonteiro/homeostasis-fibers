@@ -1,0 +1,108 @@
+\section{Introduction}
+\label{sec:intro}
+
+Considering the formalism presented in \cite{martin_ian_groupoids2006,wang2021}, 
+given a coupled cell network containing $n$ nodes where the dynamical state of each node 
+is represented by a variable $x_i$ and its internal dynamics is given by the
+nonlinear function $f_i(x_1, \dots, x_n)$, we have that the dynamics of the 
+system is represented by 
+\begin{equation} \label{eq:system}
+    \dot{\vec{x}} = \vec{F}(\vec{x}),
+\end{equation}
+where $\vec{x} = (x_1, \dots, x_n)$ and $\vec{F} = (f_1, \dots, f_n)$. To consider
+the phenomenon of homeostasis, we add to the system of equations an input parameter
+$I \in \mathbb{R}$ and also assume that the system has a stable equilibrium at 
+$\vec{x} = \vec{x_0}$ and $I = I_0$ such that we have 
+\begin{equation} \label{eq:system-input}
+    \dot{\vec{x}} = \vec{F}(\vec{x}(I), I),
+\end{equation}
+and
+\begin{equation}
+    \vec{F}(\vec{x_0}(I_0), I_0) = 0.
+\end{equation}
+
+Following \cite{wang2021,homeostasis_antonelli2018}, we verify the possibility of existence of infinitesimal
+homeostasis points and, further, the existence of infinitesimal chair points. For this, we
+first choose one variable $z(I) = x_j(I)$ of the node variables $\vec{x}$ and define this 
+variable as the \textbf{input-output map}\cite{homeostasis_antonelli2018}. The goal is to 
+verify the homeostasis behavior in $z(I)$ as we vary the parameter $I$ around $I_0$, and 
+this behavior is possible when we satisfy the following conditions:
+
+\textbf{infinitesimal homeostasis}:
+\begin{equation} \label{eq:infinitesimal-condition}
+    \frac{\partial z}{\partial I}(I_0) = 0
+\end{equation}
+
+\textbf{infinitesimal chair}:
+\begin{equation} \label{eq:chair-condition}
+    \begin{aligned}
+    \frac{\partial z}{\partial I}(I_0) = \frac{\partial^2 z}{\partial I^2}(I_0)& = 0, \\
+    \frac{\partial^3 z}{\partial I^3}(I_0) &\neq 0.
+    \end{aligned}
+\end{equation}
+
+Fortunately, the framework presented in \cite{wang2021} provides a consistent 
+method to obtain the defining conditions for both infinitesimal homeostasis and 
+infinitesimal chairs in a given coupled cell system. Although the authors of 
+\cite{multi_input_antoneli2020} provides a generalization for multiple inputs, 
+here we first consider that the input $I$ is provided to only one node of the network. 
+The node depending directly on the input $I$ is called \textbf{input node}, while 
+the node $j$ on which we define the input-output map $z(I)$ is denoted as 
+\textbf{output node}. The rest of the nodes in the network are the 
+\textbf{regulatory nodes}.
+
+Denoting the input and output nodes as $\mathcal{I}$ and $\mathcal{O}$, respectively, 
+while all the regulatory nodes as $\rho$, we consider the general Jacobian of the 
+system of Eq.~\ref{eq:system} as 
+\begin{equation}
+    J = 
+    \begin{pmatrix}
+        f_{\mathcal{I}, \mathcal{I}} & f_{\mathcal{I}, \rho} & f_{\mathcal{I}, \mathcal{O}} \\
+        f_{\rho, \mathcal{I}} & f_{\rho, \rho} & f_{\rho, \mathcal{O}}\\
+        f_{\mathcal{O}, \mathcal{I}} & f_{\mathcal{O}, \rho} & f_{\mathcal{O}, \mathcal{O}}
+    \end{pmatrix},
+\end{equation}
+where $f_{i,j} = \nicefrac{\partial f_i}{\partial x_j}$. Then, we define the homeostasis matrix 
+$H$ as the Jacobian at the equilibrium point $(\vec{x_0}(I_0), I_0)$ without the first row and 
+the last column (regarding the input and output nodes) \cite{wang2021}. Therefore,
+\begin{equation}
+    H = 
+    \begin{pmatrix}
+        f_{\rho, \mathcal{I}} & f_{\rho, \rho} \\
+        f_{\mathcal{O}, \mathcal{I}} & f_{\mathcal{O}, \rho} 
+    \end{pmatrix}.
+\end{equation}
+
+It follows from \cite{wang2021} that the conditions of infinitesimal homeostasis and
+infinitesimal chair displayed by equations \ref{eq:infinitesimal-condition} and 
+\ref{eq:chair-condition} can be obtained by using the matrix $H$. Thus, denoting
+\begin{equation}
+    det(H)(\vec{x_0}, I_0) = h(I_0),
+\end{equation}
+we have that
+
+\textbf{infinitesimal homeostasis}:
+\begin{equation} \label{eq:mat-infinitesimal-condition}
+    h(I_0) = 0
+\end{equation}
+
+\textbf{infinitesimal chair}:
+\begin{equation} \label{eq:mat-chair-condition}
+    \begin{aligned}
+        h(I_0) = h'(I_0) = 0 \\
+        h''(I_0) \neq 0
+    \end{aligned}
+\end{equation}
+
+For general circuits it is possible to obtain the defining conditions for 
+both infinitesimal homeostasis and infinitesimal chair by using the topology
+of the network and avoiding to solve the determinant of a $(n-1)\times(n-1)$
+matrix. This idea is showed by the following equation:
+\begin{equation}
+    det(H) = det(B_1)det(B_2)\cdots det(B_m),
+\end{equation}
+where each $B_j$ is a $K \times K$ block submatrix of the matrix $H$ and its 
+determinant is an irreducible polynomial.The connection with the network 
+topology is provided by showing that for each $B_j$ there is a corresponding 
+subnetwork of the original network \cite{wang2021}. Therefore, each 
+$det(B_j) = 0$ defines a homeostasis condition.
